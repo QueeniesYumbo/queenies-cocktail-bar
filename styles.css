@@ -343,6 +343,7 @@ h1 {
 .social-icon-link.tiktok { color: #fff; text-shadow: 1px 1px #ff2d95, -1px -1px #25f4ee; }
 .social-icon-link:hover, .social-icon-link:focus-visible { transform: translateY(-2px); border-color: currentColor; box-shadow: 0 0 20px color-mix(in srgb, currentColor 35%, transparent); }
 .social-placeholder .social-icon-link { padding: .78rem; color: #fff; }
+.coming-soon { display: inline-block; margin-left: .35rem; font-size: .58em; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--pink); vertical-align: middle; }
 
 @media (max-width: 760px) {
   .nav-wrap { min-height: 4.5rem; }
