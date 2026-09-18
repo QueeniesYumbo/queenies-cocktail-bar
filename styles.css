@@ -327,11 +327,15 @@ h1 {
 .contact-list span, .contact-list a { color: var(--muted); }
 
 .social-placeholder { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: 1.3rem; }
-.social-pill { padding: .58rem .85rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .9rem; }
+.social-pill { padding: .58rem .85rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .9rem; text-decoration: none; transition: color .2s ease, border-color .2s ease, background .2s ease; }
+.social-pill:hover, .social-pill:focus-visible { color: #fff; border-color: var(--purple); background: rgba(187, 0, 255, .12); }
 
 .site-footer { border-top: 1px solid var(--line); background: rgba(4,4,12,.7); }
 .footer-wrap { width: min(calc(100% - 2rem), var(--max)); margin: 0 auto; padding: 2.2rem 0; display: flex; justify-content: space-between; gap: 1.5rem; color: var(--muted); font-size: .9rem; }
 .footer-wrap p { margin: 0; }
+.footer-social { display: flex; flex-wrap: wrap; justify-content: center; gap: .9rem; }
+.footer-social a { color: var(--muted); text-decoration: none; }
+.footer-social a:hover, .footer-social a:focus-visible { color: #fff; }
 
 @media (max-width: 760px) {
   .nav-wrap { min-height: 4.5rem; }
