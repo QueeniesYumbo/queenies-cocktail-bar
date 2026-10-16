@@ -243,6 +243,9 @@ const translations = {
   }
 };
 
+translations.es['Special Winter Pride menu coming'] = 'Próximamente: menú especial de Winter Pride';
+translations.de['Special Winter Pride menu coming'] = 'Bald erhältlich: unsere spezielle Winter-Pride-Karte';
+
 const translatedTitles = {
   'Queenie’s Cocktail Bar | Yumbo Centre': { es: 'Queenie’s Cocktail Bar | Centro Yumbo', de: 'Queenie’s Cocktail Bar | Yumbo Centre' },
   'Drinks & What’s On | Queenie’s': { es: 'Bebidas y eventos | Queenie’s', de: 'Drinks & Programm | Queenie’s' },
