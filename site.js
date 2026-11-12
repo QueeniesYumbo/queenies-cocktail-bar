@@ -54,13 +54,10 @@ const translations = {
     'Home': 'Inicio',
     'Drinks & What’s On': 'Bebidas y eventos',
     'Visit Us': 'Visítanos',
-    'Opening soon · Yumbo Centre': 'Próxima apertura · Centro Yumbo',
     'Meet': 'Descubre',
     'A premium, relaxed LGBTQ+ cocktail bar in the heart of Playa del Inglés—made for beautifully mixed drinks, good music and easy conversation.': 'Un bar de cócteles LGBTQ+ premium y relajado en el corazón de Playa del Inglés, creado para disfrutar de cócteles bien preparados, buena música y conversaciones agradables.',
     'Explore Queenie’s': 'Descubre Queenie’s',
     'Find us in the Yumbo': 'Encuéntranos en el Yumbo',
-    'Our doors open soon': 'Abrimos muy pronto',
-    'Follow our launch journey and Winter Pride plans.': 'Sigue nuestros preparativos y planes para Winter Pride.',
     'The Queenie’s mood': 'El ambiente de Queenie’s',
     'Premium without the pretence.': 'Calidad premium, sin pretensiones.',
     'Come as you are, settle in and enjoy a calmer corner of the Yumbo—welcoming, sociable and proudly LGBTQ+.': 'Ven tal como eres, ponte cómodo y disfruta de un rincón más tranquilo del Yumbo: acogedor, sociable y orgullosamente LGBTQ+.',
@@ -108,10 +105,6 @@ const translations = {
     'Celebrate': 'Celebra',
     'Special nights': 'Noches especiales',
     'Occasional DJs, artists and themed events, announced as the calendar develops.': 'DJs, artistas y eventos temáticos ocasionales que anunciaremos a medida que avance el calendario.',
-    'Winter Pride 2026': 'Winter Pride 2026',
-    'Queenie’s is planning to join the party.': 'Queenie’s se prepara para unirse a la fiesta.',
-    'We are working towards opening for Winter Pride, with planned daily opening from 16:00 until midnight or later where permitted. Expect Pride cocktails, a warm welcome and Queenie’s signature electric-blue-and-purple atmosphere.': 'Estamos trabajando para abrir durante Winter Pride, con un horario diario previsto de 16:00 a medianoche o más tarde cuando esté permitido. Te esperan cócteles Pride, una cálida bienvenida y el característico ambiente azul eléctrico y morado de Queenie’s.',
-    'Final opening date and event programme will be confirmed here.': 'La fecha definitiva de apertura y el programa de eventos se confirmarán aquí.',
     'Plan your visit': 'Planea tu visita',
     'Visit Queenie’s': 'Visita Queenie’s',
     'Find your way': 'Encuentra el camino',
@@ -124,7 +117,6 @@ const translations = {
     'Where to look': 'Dónde encontrarnos',
     'Above Wunderbar, near the main square.': 'Encima de Wunderbar, cerca de la plaza principal.',
     'Opening': 'Apertura',
-    'Coming soon—confirmed launch date to follow.': 'Próximamente; la fecha de apertura se confirmará.',
     'Contact': 'Contacto',
     'Email and WhatsApp details will be added before opening.': 'Añadiremos el correo electrónico y WhatsApp antes de abrir.',
     'Accessibility': 'Accesibilidad',
@@ -151,13 +143,10 @@ const translations = {
     'Home': 'Startseite',
     'Drinks & What’s On': 'Drinks & Programm',
     'Visit Us': 'Besuche uns',
-    'Opening soon · Yumbo Centre': 'Eröffnung in Kürze · Yumbo Centre',
     'Meet': 'Entdecke',
     'A premium, relaxed LGBTQ+ cocktail bar in the heart of Playa del Inglés—made for beautifully mixed drinks, good music and easy conversation.': 'Eine hochwertige, entspannte LGBTQ+ Cocktailbar im Herzen von Playa del Inglés – für hervorragend gemixte Drinks, gute Musik und ungezwungene Gespräche.',
     'Explore Queenie’s': 'Queenie’s entdecken',
     'Find us in the Yumbo': 'Finde uns im Yumbo',
-    'Our doors open soon': 'Wir öffnen bald',
-    'Follow our launch journey and Winter Pride plans.': 'Begleite unsere Vorbereitungen und Pläne für die Winter Pride.',
     'The Queenie’s mood': 'Das Queenie’s Gefühl',
     'Premium without the pretence.': 'Premium, aber ungezwungen.',
     'Come as you are, settle in and enjoy a calmer corner of the Yumbo—welcoming, sociable and proudly LGBTQ+.': 'Komm, wie du bist, mach es dir bequem und genieße eine ruhigere Ecke des Yumbo – herzlich, gesellig und stolz LGBTQ+.',
@@ -205,10 +194,6 @@ const translations = {
     'Celebrate': 'Feiern',
     'Special nights': 'Besondere Nächte',
     'Occasional DJs, artists and themed events, announced as the calendar develops.': 'Gelegentliche DJs, Künstler und Themenabende werden angekündigt, sobald das Programm steht.',
-    'Winter Pride 2026': 'Winter Pride 2026',
-    'Queenie’s is planning to join the party.': 'Queenie’s plant, bei der Party dabei zu sein.',
-    'We are working towards opening for Winter Pride, with planned daily opening from 16:00 until midnight or later where permitted. Expect Pride cocktails, a warm welcome and Queenie’s signature electric-blue-and-purple atmosphere.': 'Wir arbeiten auf eine Eröffnung zur Winter Pride hin und planen täglich von 16:00 Uhr bis Mitternacht oder, sofern erlaubt, länger zu öffnen. Freu dich auf Pride-Cocktails, einen herzlichen Empfang und Queenie’s unverwechselbare elektrisierend blau-violette Atmosphäre.',
-    'Final opening date and event programme will be confirmed here.': 'Das endgültige Eröffnungsdatum und das Veranstaltungsprogramm werden hier bestätigt.',
     'Plan your visit': 'Besuch planen',
     'Visit Queenie’s': 'Besuche Queenie’s',
     'Find your way': 'Finde den Weg',
@@ -221,7 +206,6 @@ const translations = {
     'Where to look': 'Wo du uns findest',
     'Above Wunderbar, near the main square.': 'Über der Wunderbar, nahe dem Hauptplatz.',
     'Opening': 'Eröffnung',
-    'Coming soon—confirmed launch date to follow.': 'Demnächst – das bestätigte Eröffnungsdatum folgt.',
     'Contact': 'Kontakt',
     'Email and WhatsApp details will be added before opening.': 'E-Mail- und WhatsApp-Kontaktdaten werden vor der Eröffnung ergänzt.',
     'Accessibility': 'Barrierefreiheit',
@@ -243,8 +227,6 @@ const translations = {
   }
 };
 
-translations.es['Special Winter Pride menu coming'] = 'Próximamente: menú especial de Winter Pride';
-translations.de['Special Winter Pride menu coming'] = 'Bald erhältlich: unsere spezielle Winter-Pride-Karte';
 
 const translatedTitles = {
   'Queenie’s Cocktail Bar | Yumbo Centre': { es: 'Queenie’s Cocktail Bar | Centro Yumbo', de: 'Queenie’s Cocktail Bar | Yumbo Centre' },
@@ -254,7 +236,6 @@ const translatedTitles = {
 
 const translatedDescriptions = {
   'Queenie’s Cocktail Bar — premium cocktails and a relaxed, welcoming atmosphere in the Yumbo Centre, Playa del Inglés.': { es: 'Queenie’s Cocktail Bar: cócteles premium y un ambiente relajado y acogedor en el Centro Yumbo, Playa del Inglés.', de: 'Queenie’s Cocktail Bar – Premium-Cocktails und eine entspannte, einladende Atmosphäre im Yumbo Centre, Playa del Inglés.' },
-  'Discover cocktails, themed nights and Winter Pride plans at Queenie’s Cocktail Bar in the Yumbo Centre.': { es: 'Descubre cócteles, noches temáticas y nuestros planes para Winter Pride en Queenie’s Cocktail Bar, en el Centro Yumbo.', de: 'Entdecke Cocktails, Themenabende und unsere Winter-Pride-Pläne in Queenie’s Cocktail Bar im Yumbo Centre.' },
   'Find Queenie’s Cocktail Bar on the second floor of the Yumbo Centre in Playa del Inglés, Gran Canaria.': { es: 'Encuentra Queenie’s Cocktail Bar en la segunda planta del Centro Yumbo, en Playa del Inglés, Gran Canaria.', de: 'Du findest Queenie’s Cocktail Bar im zweiten Stock des Yumbo Centre in Playa del Inglés, Gran Canaria.' }
 };
 
@@ -265,13 +246,10 @@ translations.fr = {
   "Home": "Accueil",
   "Drinks & What’s On": "Boissons et événements",
   "Visit Us": "Nous trouver",
-  "Opening soon · Yumbo Centre": "Ouverture prochaine · Yumbo Centre",
   "Meet": "Découvrez",
   "A premium, relaxed LGBTQ+ cocktail bar in the heart of Playa del Inglés—made for beautifully mixed drinks, good music and easy conversation.": "Un bar à cocktails LGBTQ+ haut de gamme et décontracté au cœur de Playa del Inglés, pour savourer de délicieux cocktails, écouter de la bonne musique et discuter en toute simplicité.",
   "Explore Queenie’s": "Découvrez Queenie’s",
   "Find us in the Yumbo": "Retrouvez-nous au Yumbo",
-  "Our doors open soon": "Nous ouvrons bientôt",
-  "Follow our launch journey and Winter Pride plans.": "Suivez nos préparatifs d’ouverture et nos projets pour la Winter Pride.",
   "The Queenie’s mood": "L’esprit Queenie’s",
   "Premium without the pretence.": "Le raffinement, sans prétention.",
   "Come as you are, settle in and enjoy a calmer corner of the Yumbo—welcoming, sociable and proudly LGBTQ+.": "Venez comme vous êtes, installez-vous et profitez d’un coin plus calme du Yumbo : accueillant, convivial et fièrement LGBTQ+.",
@@ -320,10 +298,6 @@ translations.fr = {
   "Celebrate": "Célébrez",
   "Special nights": "Soirées spéciales",
   "Occasional DJs, artists and themed events, announced as the calendar develops.": "Des DJ, des artistes et des soirées à thème ponctuels, annoncés au fil de la programmation.",
-  "Winter Pride 2026": "Winter Pride 2026",
-  "Queenie’s is planning to join the party.": "Queenie’s se prépare à faire la fête.",
-  "We are working towards opening for Winter Pride, with planned daily opening from 16:00 until midnight or later where permitted. Expect Pride cocktails, a warm welcome and Queenie’s signature electric-blue-and-purple atmosphere.": "Nous préparons notre ouverture pour la Winter Pride, avec des horaires quotidiens prévus de 16 h à minuit, ou plus tard si autorisé. Au programme : des cocktails Pride, un accueil chaleureux et l’ambiance bleu électrique et violet emblématique de Queenie’s.",
-  "Final opening date and event programme will be confirmed here.": "La date d’ouverture définitive et le programme des événements seront confirmés ici.",
   "Plan your visit": "Préparez votre visite",
   "Visit Queenie’s": "Venez chez Queenie’s",
   "Find your way": "Trouvez le chemin",
@@ -337,7 +311,6 @@ translations.fr = {
   "Where to look": "Où nous trouver",
   "Above Wunderbar, near the main square.": "Au-dessus du Wunderbar, près de la place principale.",
   "Opening": "Ouverture",
-  "Coming soon—confirmed launch date to follow.": "Ouverture prochaine : la date sera confirmée bientôt.",
   "Contact": "Contact",
   "Email and WhatsApp details will be added before opening.": "Nos coordonnées e-mail et WhatsApp seront ajoutées avant l’ouverture.",
   "Accessibility": "Accessibilité",
@@ -356,7 +329,6 @@ translations.fr = {
   "Queenie’s on Instagram": "Queenie’s sur Instagram",
   "Queenie’s on Facebook": "Queenie’s sur Facebook",
   "Queenie’s on TikTok": "Queenie’s sur TikTok",
-  "Special Winter Pride menu coming": "Bientôt : notre carte spéciale Winter Pride"
 };
 translations.nl = {
   "Skip to content": "Ga naar inhoud",
@@ -365,13 +337,10 @@ translations.nl = {
   "Home": "Home",
   "Drinks & What’s On": "Drankjes & agenda",
   "Visit Us": "Bezoek ons",
-  "Opening soon · Yumbo Centre": "Binnenkort open · Yumbo Centre",
   "Meet": "Ontdek",
   "A premium, relaxed LGBTQ+ cocktail bar in the heart of Playa del Inglés—made for beautifully mixed drinks, good music and easy conversation.": "Een ontspannen LGBTQ+ cocktailbar met premiumkwaliteit in het hart van Playa del Inglés, voor heerlijk gemixte drankjes, goede muziek en gezellige gesprekken.",
   "Explore Queenie’s": "Ontdek Queenie’s",
   "Find us in the Yumbo": "Vind ons in het Yumbo",
-  "Our doors open soon": "We openen binnenkort",
-  "Follow our launch journey and Winter Pride plans.": "Volg onze voorbereidingen voor de opening en onze plannen voor Winter Pride.",
   "The Queenie’s mood": "De sfeer van Queenie’s",
   "Premium without the pretence.": "Premium, zonder pretenties.",
   "Come as you are, settle in and enjoy a calmer corner of the Yumbo—welcoming, sociable and proudly LGBTQ+.": "Kom zoals je bent, neem plaats en geniet van een rustiger plekje in het Yumbo: gastvrij, gezellig en met trots LGBTQ+.",
@@ -420,10 +389,6 @@ translations.nl = {
   "Celebrate": "Vier mee",
   "Special nights": "Bijzondere avonden",
   "Occasional DJs, artists and themed events, announced as the calendar develops.": "Af en toe dj’s, artiesten en thema-evenementen, die we aankondigen zodra het programma vorm krijgt.",
-  "Winter Pride 2026": "Winter Pride 2026",
-  "Queenie’s is planning to join the party.": "Queenie’s maakt zich klaar om mee te feesten.",
-  "We are working towards opening for Winter Pride, with planned daily opening from 16:00 until midnight or later where permitted. Expect Pride cocktails, a warm welcome and Queenie’s signature electric-blue-and-purple atmosphere.": "We werken toe naar een opening tijdens Winter Pride, met geplande dagelijkse openingstijden van 16:00 tot middernacht of later waar toegestaan. Verwacht Pride-cocktails, een warm welkom en de kenmerkende elektrisch blauwe en paarse sfeer van Queenie’s.",
-  "Final opening date and event programme will be confirmed here.": "De definitieve openingsdatum en het evenementenprogramma worden hier bevestigd.",
   "Plan your visit": "Plan je bezoek",
   "Visit Queenie’s": "Bezoek Queenie’s",
   "Find your way": "Vind de weg",
@@ -437,7 +402,6 @@ translations.nl = {
   "Where to look": "Waar je ons vindt",
   "Above Wunderbar, near the main square.": "Boven Wunderbar, vlak bij het centrale plein.",
   "Opening": "Opening",
-  "Coming soon—confirmed launch date to follow.": "Binnenkort open; de bevestigde openingsdatum volgt.",
   "Contact": "Contact",
   "Email and WhatsApp details will be added before opening.": "Ons e-mailadres en WhatsApp-nummer worden vóór de opening toegevoegd.",
   "Accessibility": "Toegankelijkheid",
@@ -456,15 +420,59 @@ translations.nl = {
   "Queenie’s on Instagram": "Queenie’s op Instagram",
   "Queenie’s on Facebook": "Queenie’s op Facebook",
   "Queenie’s on TikTok": "Queenie’s op TikTok",
-  "Special Winter Pride menu coming": "Binnenkort: onze speciale Winter Pride-kaart"
 };
 
 Object.assign(translatedTitles["Queenie’s Cocktail Bar | Yumbo Centre"], {"fr":"Queenie’s Cocktail Bar | Yumbo Centre","nl":"Queenie’s Cocktail Bar | Yumbo Centre"});
 Object.assign(translatedTitles["Drinks & What’s On | Queenie’s"], {"fr":"Boissons et événements | Queenie’s","nl":"Drankjes & agenda | Queenie’s"});
 Object.assign(translatedTitles["Visit Us | Queenie’s Cocktail Bar"], {"fr":"Nous trouver | Queenie’s Cocktail Bar","nl":"Bezoek ons | Queenie’s Cocktail Bar"});
 Object.assign(translatedDescriptions["Queenie’s Cocktail Bar — premium cocktails and a relaxed, welcoming atmosphere in the Yumbo Centre, Playa del Inglés."], {"fr":"Queenie’s Cocktail Bar : des cocktails haut de gamme et une ambiance détendue et accueillante au Yumbo Centre, à Playa del Inglés.","nl":"Queenie’s Cocktail Bar: premiumcocktails en een ontspannen, gastvrije sfeer in het Yumbo Centre, Playa del Inglés."});
-Object.assign(translatedDescriptions["Discover cocktails, themed nights and Winter Pride plans at Queenie’s Cocktail Bar in the Yumbo Centre."], {"fr":"Découvrez les cocktails, les soirées à thème et les projets pour la Winter Pride chez Queenie’s Cocktail Bar au Yumbo Centre.","nl":"Ontdek cocktails, thema-avonden en plannen voor Winter Pride bij Queenie’s Cocktail Bar in het Yumbo Centre."});
 Object.assign(translatedDescriptions["Find Queenie’s Cocktail Bar on the second floor of the Yumbo Centre in Playa del Inglés, Gran Canaria."], {"fr":"Retrouvez Queenie’s Cocktail Bar au deuxième étage du Yumbo Centre, à Playa del Inglés, Grande Canarie.","nl":"Je vindt Queenie’s Cocktail Bar op de tweede verdieping van het Yumbo Centre in Playa del Inglés, Gran Canaria."});
+
+Object.assign(translations.es, {
+  "Opening very soon · Yumbo Centre": "Apertura muy pronto · Centro Yumbo",
+  "Our doors open very soon": "Abrimos muy pronto",
+  "We’re ironing out the final technical issues and can’t wait to welcome you with open arms.": "Estamos resolviendo los últimos problemas técnicos y tenemos muchas ganas de recibiros con los brazos abiertos.",
+  "Our cocktail menu is coming soon": "Nuestra carta de cócteles estará disponible muy pronto",
+  "Opening update": "Novedades sobre la apertura",
+  "Queenie’s is opening very soon!": "¡Queenie’s abre muy pronto!",
+  "We’re ironing out the final technical issues and can’t wait to share our cocktail menu with you. It’s full of unique, unexpected flavour combinations we’re excited for you to try. We’re so close to opening our doors and welcoming you with open arms.": "Estamos resolviendo los últimos problemas técnicos y tenemos muchas ganas de compartir nuestra carta de cócteles. Está llena de combinaciones de sabores únicas y sorprendentes que estamos deseando que probéis. Ya queda muy poco para abrir nuestras puertas y recibiros con los brazos abiertos.",
+  "We’ll share our opening date here as soon as it’s confirmed.": "Publicaremos aquí la fecha de apertura en cuanto esté confirmada.",
+  "Opening very soon. We’ll share the date once it’s confirmed.": "Abrimos muy pronto. Anunciaremos la fecha en cuanto esté confirmada."
+});
+Object.assign(translations.de, {
+  "Opening very soon · Yumbo Centre": "Eröffnung in Kürze · Yumbo Centre",
+  "Our doors open very soon": "Wir öffnen in Kürze",
+  "We’re ironing out the final technical issues and can’t wait to welcome you with open arms.": "Wir beheben die letzten technischen Probleme und freuen uns darauf, euch mit offenen Armen zu empfangen.",
+  "Our cocktail menu is coming soon": "Unsere Cocktailkarte kommt bald",
+  "Opening update": "Aktuelles zur Eröffnung",
+  "Queenie’s is opening very soon!": "Queenie’s öffnet in Kürze!",
+  "We’re ironing out the final technical issues and can’t wait to share our cocktail menu with you. It’s full of unique, unexpected flavour combinations we’re excited for you to try. We’re so close to opening our doors and welcoming you with open arms.": "Wir beheben die letzten technischen Probleme und können es kaum erwarten, euch unsere Cocktailkarte zu zeigen. Darauf findet ihr einzigartige, überraschende Geschmackskombinationen, die ihr unbedingt probieren solltet. Bald öffnen wir unsere Türen und empfangen euch mit offenen Armen.",
+  "We’ll share our opening date here as soon as it’s confirmed.": "Sobald der Eröffnungstermin feststeht, geben wir ihn hier bekannt.",
+  "Opening very soon. We’ll share the date once it’s confirmed.": "Wir öffnen in Kürze. Den Termin geben wir bekannt, sobald er feststeht."
+});
+Object.assign(translations.fr, {
+  "Opening very soon · Yumbo Centre": "Ouverture très prochaine · Yumbo Centre",
+  "Our doors open very soon": "Nous ouvrons très bientôt",
+  "We’re ironing out the final technical issues and can’t wait to welcome you with open arms.": "Nous réglons les derniers problèmes techniques et avons hâte de vous accueillir à bras ouverts.",
+  "Our cocktail menu is coming soon": "Notre carte de cocktails arrive bientôt",
+  "Opening update": "Infos sur l’ouverture",
+  "Queenie’s is opening very soon!": "Queenie’s ouvre très bientôt !",
+  "We’re ironing out the final technical issues and can’t wait to share our cocktail menu with you. It’s full of unique, unexpected flavour combinations we’re excited for you to try. We’re so close to opening our doors and welcoming you with open arms.": "Nous réglons les derniers problèmes techniques et avons hâte de vous faire découvrir notre carte de cocktails. Elle regorge d’associations de saveurs originales et inattendues que nous sommes impatients de vous faire goûter. Nous sommes tout près d’ouvrir nos portes et de vous accueillir à bras ouverts.",
+  "We’ll share our opening date here as soon as it’s confirmed.": "Nous annoncerons ici la date d’ouverture dès qu’elle sera confirmée.",
+  "Opening very soon. We’ll share the date once it’s confirmed.": "Nous ouvrons très bientôt. Nous annoncerons la date dès qu’elle sera confirmée."
+});
+Object.assign(translations.nl, {
+  "Opening very soon · Yumbo Centre": "Binnenkort open · Yumbo Centre",
+  "Our doors open very soon": "We openen heel binnenkort",
+  "We’re ironing out the final technical issues and can’t wait to welcome you with open arms.": "We lossen de laatste technische problemen op en kunnen niet wachten om jullie met open armen te ontvangen.",
+  "Our cocktail menu is coming soon": "Onze cocktailkaart komt binnenkort",
+  "Opening update": "Nieuws over de opening",
+  "Queenie’s is opening very soon!": "Queenie’s opent heel binnenkort!",
+  "We’re ironing out the final technical issues and can’t wait to share our cocktail menu with you. It’s full of unique, unexpected flavour combinations we’re excited for you to try. We’re so close to opening our doors and welcoming you with open arms.": "We lossen de laatste technische problemen op en kunnen niet wachten om onze cocktailkaart met jullie te delen. Die zit vol unieke, verrassende smaakcombinaties die we jullie graag laten proeven. Het duurt niet lang meer voordat we onze deuren openen en jullie met open armen ontvangen.",
+  "We’ll share our opening date here as soon as it’s confirmed.": "Zodra de openingsdatum vaststaat, maken we die hier bekend.",
+  "Opening very soon. We’ll share the date once it’s confirmed.": "We openen heel binnenkort. We maken de datum bekend zodra die vaststaat."
+});
+translatedDescriptions["Explore our cocktail menu and opening updates for Queenie’s Cocktail Bar in the Yumbo Centre."] = {"es":"Descubre nuestra carta de cócteles y las novedades sobre la apertura de Queenie’s Cocktail Bar en el Centro Yumbo.","de":"Entdecke unsere Cocktailkarte und Neuigkeiten zur Eröffnung von Queenie’s Cocktail Bar im Yumbo Centre.","fr":"Découvrez notre carte de cocktails et les dernières nouvelles sur l’ouverture de Queenie’s Cocktail Bar au Yumbo Centre.","nl":"Ontdek onze cocktailkaart en het laatste nieuws over de opening van Queenie’s Cocktail Bar in het Yumbo Centre."};
 
 const originalTitle = document.title;
 const descriptionMeta = document.querySelector('meta[name="description"]');
