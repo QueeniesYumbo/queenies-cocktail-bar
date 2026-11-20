@@ -474,6 +474,10 @@ Object.assign(translations.nl, {
 });
 translatedDescriptions["Explore our cocktail menu and opening updates for Queenie’s Cocktail Bar in the Yumbo Centre."] = {"es":"Descubre nuestra carta de cócteles y las novedades sobre la apertura de Queenie’s Cocktail Bar en el Centro Yumbo.","de":"Entdecke unsere Cocktailkarte und Neuigkeiten zur Eröffnung von Queenie’s Cocktail Bar im Yumbo Centre.","fr":"Découvrez notre carte de cocktails et les dernières nouvelles sur l’ouverture de Queenie’s Cocktail Bar au Yumbo Centre.","nl":"Ontdek onze cocktailkaart en het laatste nieuws over de opening van Queenie’s Cocktail Bar in het Yumbo Centre."};
 
+for (const [source, values] of Object.entries(launchCopy)) {
+  ['es','de','fr','nl'].forEach((lang, i) => { translations[lang][source] = values[i]; });
+}
+translatedTitles['Gallery | Queenie’s'] = {es:'Galería | Queenie’s',de:'Galerie | Queenie’s',fr:'Galerie | Queenie’s',nl:'Galerij | Queenie’s'};
 const originalTitle = document.title;
 const descriptionMeta = document.querySelector('meta[name="description"]');
 const originalDescription = descriptionMeta?.getAttribute('content') || '';
@@ -483,18 +487,18 @@ const textNodes = [];
 let currentNode;
 
 while ((currentNode = walker.nextNode())) {
-  if (currentNode.parentElement?.closest('script, style, select')) continue;
+  if (currentNode.parentElement?.closest('script, style, select, [data-localized]')) continue;
   if (!currentNode.nodeValue.trim()) continue;
   originalText.set(currentNode, currentNode.nodeValue);
   textNodes.push(currentNode);
 }
 
-const translatableAttributes = ['aria-label', 'title'];
-const attributeElements = [...document.querySelectorAll('[aria-label], [title]')];
+const translatableAttributes = ['aria-label', 'title', 'alt'];
+const attributeElements = [...document.querySelectorAll('[aria-label], [title], [alt]')];
 attributeElements.forEach((element) => {
   translatableAttributes.forEach((attribute) => {
     const value = element.getAttribute(attribute);
-    if (value) element.dataset[`original${attribute === 'aria-label' ? 'AriaLabel' : 'Title'}`] = value;
+    if (value) element.dataset[`original${attribute === 'aria-label' ? 'AriaLabel' : attribute === 'alt' ? 'Alt' : 'Title'}`] = value;
   });
 });
 
@@ -505,6 +509,7 @@ function translateValue(value, language) {
 function applyLanguage(language) {
   const selectedLanguage = ['en', 'es', 'de', 'fr', 'nl'].includes(language) ? language : 'en';
   document.documentElement.lang = selectedLanguage;
+  updateLaunch(selectedLanguage);
 
   textNodes.forEach((node) => {
     const source = originalText.get(node);
@@ -516,8 +521,10 @@ function applyLanguage(language) {
   attributeElements.forEach((element) => {
     const ariaSource = element.dataset.originalAriaLabel;
     const titleSource = element.dataset.originalTitle;
+    const altSource = element.dataset.originalAlt;
     if (ariaSource) element.setAttribute('aria-label', translateValue(ariaSource, selectedLanguage));
     if (titleSource) element.setAttribute('title', translateValue(titleSource, selectedLanguage));
+    if (altSource) element.setAttribute('alt', translateValue(altSource, selectedLanguage));
   });
 
   document.title = selectedLanguage === 'en' ? originalTitle : (translatedTitles[originalTitle]?.[selectedLanguage] || originalTitle);
